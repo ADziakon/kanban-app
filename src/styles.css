@@ -1,0 +1,42 @@
+/* Основные стили для приложения */
+
+/* Стили для компонента Board */
+.board-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .board-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Стили для компонента Column */
+  .column-container {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 300px;
+  }
+  
+  .column-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .column-content {
+    margin-top: 20px;
+  }
+  
+  /* Контейнер для размещения колонок на доске */
+  .columns-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
